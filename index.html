@@ -6,69 +6,78 @@
     <link href="styles.css" rel="stylesheet"/>
 </head>
 <body>
-    <div class="info">
-        <img src="logo.jpg" class="logo" alt="маруся">
-        <h1> Василий Пупкин </h1>
-        <p> Я начинающий <strong> программист</strong></p>
-        <p> Я нахожусь на начальной стадии изучения программирования </p>                  
-    </div>
-    <hr>
-    <h2>  мои социальные сети</h2>
-    <ul>
-        <li>
-            <a href="https://vk.com/ya_makovetskaya" target="_blank">Вконтакте</a>
-        </li>
-        <li>
-            <a href="https://www.instagram.com/yarossssslavo4ka/" target="_blank">Инстаграмм</a>
-        </li>
-    </ul>
-    <hr>
-    <h2>мои хобби</h2>
-    <ol>
-        <li>читать</li>
-        <li>наебывать людей </li>
-        <li>играть на фортепиано</li>
-    </ol>
-    <hr>
-    <h2>Опыт работы</h2>
-    <table border="2">
-        <thead>
-            <tr>
-                <th>место работы</th>
-                <th>должность</th>
-                <th>период</th>
-            </tr>
-        </thead>
+    <div class="container">  
+        <div class="info">
+            <img src="logo.jpg" class="logo" alt="маруся">
+            <h1> Василий Пупкин </h1>
+            <p> Я начинающий <strong> программист</strong></p>
+            <p> Я нахожусь на начальной стадии изучения программирования </p>                  
+        </div>
 
-        <tbody> 
-            <tr>
-                <td>кладбище</td>
-                <td>гробовщик</td>
-                <td>2004-2007</td>
-            </tr>
-            <tr>
-                <td>ситимобил</td>
-                <td>менеджер</td>
-                <td>2020-2021</td>
-            </tr>
-        </tbody>
-    </table>
-    <hr>
+        <hr>
 
-    <h2> мои предыдущие места работы</h2>
-    <a href="mesta.html" target="_blank" > посмотреть список</a>
-    <hr>
-    <h2> Связаться со мной</h2>
-    <form action="/"> 
-        <label for="name"> Ваше имя </label>
-        <input type="text" id="name" placeholder="введите имя">
+        <div class="social">
+        <h2>  мои социальные сети</h2>
+        <ul>
+            <li>
+                <a href="https://vk.com/ya_makovetskaya" target="_blank">Вконтакте</a>
+            </li>
+            <li>
+                <a href="https://www.instagram.com/yarossssslavo4ka/" target="_blank">Инстаграмм</a>
+            </li>
+        </ul>
+        </div> 
 
-        <label for="номер"> Ваш номер </label>
-        <input type="password" id="номер" placeholder="введите номер">   
-        <br>
-        <label for="text"> ваше сообщение </label>
-        <textarea name="" id="text"></textarea>
-        <input type="submit" value="связаться">
-    </form>
+        <hr>
+        <h2>мои хобби</h2>
+        <ol>
+            <li>читать</li>
+            <li>наебывать людей </li>
+            <li>играть на фортепиано</li>
+        </ol>
+        <hr>
+        <h2>Опыт работы</h2>
+        <table border="2">
+            <thead>
+                <tr>
+                    <th>место работы</th>
+                    <th>должность</th>
+                    <th>период</th>
+                </tr>
+            </thead>
+
+            <tbody> 
+                <tr>
+                    <td>кладбище</td>
+                    <td>гробовщик</td>
+                    <td>2004-2007</td>
+                </tr>
+                <tr>
+                    <td>ситимобил</td>
+                    <td>менеджер</td>
+                    <td>2020-2021</td>
+                </tr>
+            </tbody>
+        </table>
+        <hr>
+
+        <h2> мои предыдущие места работы</h2>
+        <a href="mesta.html" target="_blank" > посмотреть список</a>
+        <hr>
+        <h2> Связаться со мной</h2>
+        <form action="/"> 
+            <label for="name"> Ваше имя </label>
+            <input type="text" id="name" placeholder="введите имя">
+
+            <label for="номер"> Ваш номер </label>
+            <input type="password" id="номер" placeholder="введите номер">   
+            <br>
+            <label for="text"> ваше сообщение </label>
+            <textarea name="" id="text"></textarea>
+            <input type="submit" value="связаться">
+        </form>
+    </div> 
+
+
 </body>
 </html>
