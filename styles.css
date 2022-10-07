@@ -15,6 +15,9 @@ body{
     box-shadow: 4px 14px 14px grey;
 }
 
+.info{
+    margin-bottom: 20px;
+}
 .info p{
     color: #89898f; 
     margin: 0;
@@ -72,4 +75,49 @@ a:active{
 }
 a:visited{
     color: brown ;
+}
+
+.bg-yellow{
+    background:#fff9dc;
+}
+.bg-green{
+    background: #e5ffe7;
+}
+.bg-red{
+    background: #ffe5e5;
+}
+
+.card{
+    padding: 15px 20px;
+    margin-bottom: 20px;
+    border-radius: 20px;
+}
+.card h2{
+    margin-bottom: 10px;
+}
+.list{
+    padding: 0px 20px;
+}
+.list li{
+    color: #86898f;
+    margin-bottom: 10px;
+    border-bottom: 1px soilid grey;
+}
+.table{
+    width:100%;
+}
+.table td{
+    padding-bottom: 10px;
+}
+.table td:nth-child(2), .table td:nth-child(3){
+    color: grey;
+}
+.link-list{
+    list-style:square;
+}
+.link-list li{
+    margin-bottom: 10px;
+    padding-bottom: 5px;
+    border-bottom: 1px solid #ccc;
+
 }
